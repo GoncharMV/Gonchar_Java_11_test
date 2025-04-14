@@ -30,5 +30,6 @@ mvn exec:java
 
  ## Requirements
 
-- Java 8 or higher
+- Java 11 or higher
+- Maven
 - Terminal/IDE to run Java applications
