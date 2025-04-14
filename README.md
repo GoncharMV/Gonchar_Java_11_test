@@ -4,6 +4,7 @@ This is a simple Java console application that performs three operations based o
 2. Checks if the entered name is "John" and responds accordingly.
 3. Accepts a numeric array and prints all elements divisible by 3.
 
+4. Validates if a bracket sequence is correct
 
 ## Features
 
