@@ -1,5 +1,6 @@
 package com.grettastic;
 
+import com.grettastic.brackets.BracketController;
 import com.grettastic.processors.ArrayProcessor;
 import com.grettastic.processors.NameProcessor;
 import com.grettastic.processors.NumberProcessor;
@@ -8,6 +9,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        BracketController bc = new BracketController();
+
+        System.out.println(bc.fixBracketSequence("[((())()(())]]"));
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the number");
